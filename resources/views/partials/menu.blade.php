@@ -11,6 +11,12 @@
             <span class="nav-link-text">Slide</span>
         </a>
     </li>
+    <li>
+        <a href="{{route('home.index')}}" title="Home" data-filter-tags="Home">
+            <i class="fal fa-warehouse"></i>
+            <span class="nav-link-text">Home</span>
+        </a>
+    </li>
     @isset($menu)
     @foreach ($menu as $parent_menu)
     <li class="">

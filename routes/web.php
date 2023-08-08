@@ -40,4 +40,5 @@ Route::group(['prefix' => 'backoffice', 'middleware' => ['auth']], function () {
     Route::resource('permissions', 'PermissionController');
     Route::resource('roles', 'RoleController');
     Route::resource('slide', 'SlideController');
+    Route::resource('home', 'HomeController');
 });
