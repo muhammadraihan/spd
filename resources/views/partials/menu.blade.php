@@ -17,6 +17,30 @@
             <span class="nav-link-text">Home</span>
         </a>
     </li>
+    <li>
+        <a href="{{route('service.index')}}" title="Service" data-filter-tags="Service">
+            <i class="fal fa-warehouse"></i>
+            <span class="nav-link-text">Service</span>
+        </a>
+    </li>
+    <li>
+        <a href="{{route('client.index')}}" title="Client" data-filter-tags="Client">
+            <i class="fal fa-warehouse"></i>
+            <span class="nav-link-text">Client</span>
+        </a>
+    </li>
+    <li>
+        <a href="{{route('about_slide.index')}}" title="About Slide" data-filter-tags="About Slide">
+            <i class="fal fa-warehouse"></i>
+            <span class="nav-link-text">About Slide</span>
+        </a>
+    </li>
+    <li>
+        <a href="{{route('sub_brand.index')}}" title="Sub Brand" data-filter-tags="Sub Brand">
+            <i class="fal fa-warehouse"></i>
+            <span class="nav-link-text">Sub Brand</span>
+        </a>
+    </li>
     @isset($menu)
     @foreach ($menu as $parent_menu)
     <li class="">

@@ -41,4 +41,8 @@ Route::group(['prefix' => 'backoffice', 'middleware' => ['auth']], function () {
     Route::resource('roles', 'RoleController');
     Route::resource('slide', 'SlideController');
     Route::resource('home', 'HomeController');
+    Route::resource('service', 'ServiceController');
+    Route::resource('client', 'ClientController');
+    Route::resource('about_slide', 'AboutSlideController');
+    Route::resource('sub_brand', 'SubBrandController');
 });
