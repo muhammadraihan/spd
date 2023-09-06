@@ -15,8 +15,6 @@
                 <div class="carousel-item active" style="background-image: url(assets/img/hero/slide-1.jpeg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
-                            <h2 class="text-center">DHL Express</h2>
-                            <p class="text-center">TV Commercial</p>
                             <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
                         </div>
                     </div>
@@ -26,8 +24,6 @@
                 <div class="carousel-item" style="background-image: url(assets/img/hero/slide-2.jpeg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
-                            <h2 class="text-center">Starbucks</h2>
-                            <p class="text-center">Social Media</p>
                             <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
                         </div>
                     </div>
@@ -37,8 +33,6 @@
                 <div class="carousel-item" style="background-image: url(assets/img/hero/slide-3.jpeg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
-                            <h2 class="text-center">Coca Cola</h2>
-                            <p class="text-center">360 Commercial</p>
                             <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
                         </div>
                     </div>
@@ -79,14 +73,14 @@
 
         <!-- ======= Services Section ======= -->
         <section id="services-spd" class="services-spd section-bg">
-            <div class="container" data-aos="fade-up">
+            <div class="content-services" data-aos="fade-up">
 
                 <div class="section-title">
                     <h2>Our Services</h2>
                 </div>
 
-                <div class="row justify-content-center">
-                    <div class="col-lg-3 col-md-6 col-sm-8 mb-2">
+                <div class="grid">
+                    <div class="grid-item">
                         <article class="card">
                             <img class="card__background"
                                 src="https://img.freepik.com/free-photo/social-media-marketing-concept-marketing-with-applications_23-2150063170.jpg?w=360&t=st=1692026298~exp=1692026898~hmac=5d451a103ad3690b075c0200d55d1f294351a2cde9821212ceb6e5675b493225"
@@ -103,7 +97,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-8 mb-2">
+                    <div class="grid-item">
                         <article class="card">
                             <img class="card__background"
                                 src="https://img.freepik.com/free-photo/social-media-marketing-concept-marketing-with-applications_23-2150063132.jpg?w=360&t=st=1692026365~exp=1692026965~hmac=7b1ac641b0eb8d153d674adb19c5c64fba4294e2c3985934cf88fd0c68c315cc"
@@ -120,7 +114,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-8 mb-2">
+                    <div class="grid-item">
                         <article class="card">
                             <img class="card__background"
                                 src="https://img.freepik.com/free-photo/hands-holding-smartphone-social-media-concept_23-2150208238.jpg?w=360&t=st=1692026492~exp=1692027092~hmac=c9f2211ee90fd4d8dc266815c246c4704af29bc8f28dbc588bf47105c1636d01"
@@ -137,7 +131,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-8">
+                    <div class="grid-item">
                         <article class="card">
                             <img class="card__background" src="https://i.imgur.com/QYWAcXk.jpeg"
                                 alt="Photo of Cartagena's cathedral at the background and some colonial style houses" />
@@ -153,22 +147,22 @@
                             </div>
                         </article>
                     </div>
-                    <!-- <div class="col-lg-3 col-md-6 col-sm-8">
-                <article class="card">
-                  <img class="card__background" src="https://i.imgur.com/QYWAcXk.jpeg"
-                    alt="Photo of Cartagena's cathedral at the background and some colonial style houses" />
-                  <div class="card__content | flow">
-                    <div class="card__content--container | flow">
-                      <h2 class="card__title">Creative Solution & Branding Activation</h2>
-                      <p class="card__description">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
-                        labore laudantium deserunt fugiat numquam.
-                      </p>
+                    <div class="grid-item">
+                        <article class="card">
+                            <img class="card__background" src="https://i.imgur.com/QYWAcXk.jpeg"
+                                alt="Photo of Cartagena's cathedral at the background and some colonial style houses" />
+                            <div class="card__content | flow">
+                                <div class="card__content--container | flow">
+                                    <h2 class="card__title">Creative Solution & Branding Activation</h2>
+                                    <p class="card__description">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum in
+                                        labore laudantium deserunt fugiat numquam.
+                                    </p>
+                                </div>
+                                <button class="card__button">Read more</button>
+                            </div>
+                        </article>
                     </div>
-                    <button class="card__button">Read more</button>
-                  </div>
-                </article>
-              </div> -->
                 </div>
             </div>
         </section>
@@ -265,6 +259,30 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="client-logo">
+                            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -273,67 +291,71 @@
         <!-- Contact Section -->
         <section id="contact" class="contact section-bg">
             <div class="container" data-aos="fade-up">
+                <div class="row justify-content-center align-items-center" data-aos="fade-up">
 
-                <div class="section-title">
-                    <h2>Talk With Us</h2>
-                </div>
-                <div class="row justify-content-center" data-aos="fade-up">
+                    <div class="col-lg-5">
+                        <img src="/assets/img/contact-us.png" alt="Contact Us" class="w-100">
+                    </div>
 
-                    <div class="col-lg-10">
+                    <div class="col-lg-7">
+
+                        <div class="section-title">
+                            <h2>Talk With Us</h2>
+                        </div>
 
                         <div class="info-wrap-home">
                             <div class="row">
                                 <div class="col-lg-4 info">
                                     <i class="bi bi-geo-alt"></i>
                                     <h4>Location:</h4>
-                                    <p>Jl. Merak Jingga<br>Medan, 20122</p>
+                                    <p>Medan, Indonesia</p>
                                 </div>
 
                                 <div class="col-lg-4 info mt-4 mt-lg-0">
                                     <i class="bi bi-envelope"></i>
                                     <h4>Email:</h4>
-                                    <p>info@spdcommunication.com<br>contact@spdcommunication.com</p>
+                                    <p>info@spdcommunication.com</p>
                                 </div>
 
                                 <div class="col-lg-4 info mt-4 mt-lg-0">
                                     <i class="bi bi-phone"></i>
                                     <h4>Call:</h4>
-                                    <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
+                                    <p>+6261 8955488</p>
                                 </div>
                             </div>
                         </div>
 
-                    </div>
+                        <div class="row mt-5 justify-content-center" data-aos="fade-up">
+                            <div class="col-lg-12">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" name="name" class="form-control" id="name"
+                                                placeholder="Your Name" required>
+                                        </div>
+                                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                                            <input type="email" class="form-control" name="email" id="email"
+                                                placeholder="Your Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <input type="text" class="form-control" name="subject" id="subject"
+                                            placeholder="Subject" required>
+                                    </div>
+                                    <div class="form-group mt-3">
+                                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                    </div>
+                                    <div class="my-3">
+                                        <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                    </div>
+                                    <div class="text-center"><button type="submit">Send Message</button></div>
+                                </form>
+                            </div>
+        
+                        </div>
 
-                </div>
-
-                <div class="row mt-5 justify-content-center" data-aos="fade-up">
-                    <div class="col-lg-10">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                            <div class="row">
-                                <div class="col-md-6 form-group">
-                                    <input type="text" name="name" class="form-control" id="name"
-                                        placeholder="Your Name" required>
-                                </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0">
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email" required>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <input type="text" class="form-control" name="subject" id="subject"
-                                    placeholder="Subject" required>
-                            </div>
-                            <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                            <div class="my-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                            </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
-                        </form>
                     </div>
 
                 </div>

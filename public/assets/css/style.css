@@ -413,7 +413,7 @@ h6 {
 }
 
 #hero .carousel-content {
-  background: rgba(98, 98, 98, 0.4);
+  /* background: rgba(98, 98, 98, 0.4); */
   padding: 20px;
   color: #fff;
   border-radius: 12px;
@@ -798,11 +798,6 @@ section {
   color: white;
 }
 
-#services-spd {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 /* 
 #services-spd h2 {
   color: white;
@@ -822,7 +817,7 @@ section {
   /* height: 28.125rem; */
   height: 30rem;
   overflow: hidden;
-  border-radius: 0.625rem;
+  border-radius: 0;
   box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
 }
 
@@ -958,6 +953,17 @@ section {
   }
 }
 
+.content-services .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 0;
+}
+
+#services-spd {
+  padding: 0;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -980,6 +986,13 @@ section {
   color: #4d4643;
   transition: all 0.3s;
   border-radius: 4px;
+}
+
+.content-desc-image {
+  background-color: #0c254c;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 .portfolio #portfolio-flters li:hover,
@@ -1207,6 +1220,10 @@ section {
 
 .about-us .content p:last-child {
   margin-bottom: 0;
+}
+
+#about-us {
+  padding: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1766,6 +1783,10 @@ section {
   }
 }
 
+.spd-contact {
+  margin-top: 100px;
+}
+
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
@@ -2280,7 +2301,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #116c58;
+  background: #0c254c;
 }
 
 #footer .footer-top {
@@ -2480,13 +2501,25 @@ video {
 #myTab .service-thumbnail {
   width: 100%;
   height: 285px;
-  background-color: #e9f5ff;
-  border-radius: 12px;
+  background-color: #0c254c;
+  border-radius: 0;
   overflow: hidden;
 }
 
 #myTab .service-thumbnail .content {
   text-align: center;
+  color: white;
+}
+
+#service-tab {
+  padding-top: 140px;
+  padding-bottom: 0;
+}
+
+#service-tab .grid-service {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 8px;
 }
 
 .img-service-thumb {

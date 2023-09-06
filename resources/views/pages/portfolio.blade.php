@@ -6,22 +6,6 @@
 
 @section('content')
     <main id="main">
-
-        <!-- ======= Breadcrumbs ======= -->
-        <section id="breadcrumbs" class="breadcrumbs">
-            <div class="container">
-
-                <div class="d-flex justify-content-between align-items-center">
-                    <h2>Our Works</h2>
-                    <ol>
-                        <li><a href="{{ route('home') }}">Home</a></li>
-                        <li>Our Works</li>
-                    </ol>
-                </div>
-
-            </div>
-        </section><!-- End Breadcrumbs -->
-
         <!-- ======= Hero Section ======= -->
         <section id="hero">
             <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -29,46 +13,23 @@
                 <div class="carousel-inner" role="listbox">
 
                     <!-- Slide 1 -->
-                    <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
-                        <div class="carousel-container">
-                            <div class="carousel-content animate__animated animate__fadeInUp">
-                                <h2>Yamaha Selalu Terdepan</h2>
-                                <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
-                                    ut aliquam.
-                                    Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
-                                    repellendus
-                                    deleniti vel. Minus et tempore modi architecto.</p>
-                                <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
-                            </div>
-                        </div>
+                    <div class="carousel-item active" style="background-image: url(assets/img/hero/slide-1.jpeg);">
                     </div>
 
                     <!-- Slide 2 -->
-                    <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
+                    <div class="carousel-item" style="background-image: url(assets/img/hero/slide-2.jpeg);">
                         <div class="carousel-container">
                             <div class="carousel-content animate__animated animate__fadeInUp">
-                                <h2>XL Prepaid</h2>
-                                <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
-                                    ut aliquam.
-                                    Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
-                                    repellendus
-                                    deleniti vel. Minus et tempore modi architecto.</p>
-                                <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+                                <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Slide 3 -->
-                    <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
+                    <div class="carousel-item" style="background-image: url(assets/img/hero/slide-3.jpeg);">
                         <div class="carousel-container">
                             <div class="carousel-content animate__animated animate__fadeInUp">
-                                <h2>Bloomberg Media</h2>
-                                <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
-                                    ut aliquam.
-                                    Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus
-                                    repellendus
-                                    deleniti vel. Minus et tempore modi architecto.</p>
-                                <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+                                <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
                             </div>
                         </div>
                     </div>
@@ -86,7 +47,8 @@
                 <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
             </div>
-        </section><!-- End Hero -->
+        </section>
+        <!-- End Hero -->
 
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio">
