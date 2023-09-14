@@ -42,8 +42,9 @@ class FrontendController extends Controller
     public function about()
     {
         $about = About_slide::all();
+        $subbrand = Sub_brand::all();
 
-        return view('pages.about', compact('about'));
+        return view('pages.about', compact('about', 'subbrand'));
     }
 
     public function portfolio()

@@ -1191,10 +1191,11 @@ section {
   line-height: 60px;
   margin-bottom: 20px;
   text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .about-us .content h3 {
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'Open Sans', sans-serif;
   line-height: 36px;
   font-size: 24px;
@@ -2455,10 +2456,10 @@ section {
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+  background: no-repeat center center/cover;
 }
 
-video {
+.gif-thumbnail img {
   min-width: 100%;
   min-height: 100vh;
   z-index: 1;

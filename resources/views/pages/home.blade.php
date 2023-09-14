@@ -9,34 +9,47 @@
     <section id="hero">
         <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-            <div class="carousel-inner" role="listbox">
 
+            <div class="carousel-inner" role="listbox">
+                @forelse ($slide as $item)
+                    <div class="carousel-item active" style="background-image: url('{{ asset('photo/' . $item->photo) }}');">
+                        <div class="carousel-container">
+                            <div class="carousel-content animate__animated animate__fadeInUp">
+                                <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
+                            </div>
+                        </div>
+                    </div>
+                @empty
+                    <div class="col-12">
+                        Empty
+                    </div>
+                @endforelse
                 <!-- Slide 1 -->
-                <div class="carousel-item active" style="background-image: url(assets/img/hero/slide-1.jpeg);">
+                {{-- <div class="carousel-item active" style="background-image: url(assets/img/hero/slide-1.jpeg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Slide 2 -->
-                <div class="carousel-item" style="background-image: url(assets/img/hero/slide-2.jpeg);">
+                {{-- <div class="carousel-item" style="background-image: url(assets/img/hero/slide-2.jpeg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Slide 3 -->
-                <div class="carousel-item" style="background-image: url(assets/img/hero/slide-3.jpeg);">
+                {{-- <div class="carousel-item" style="background-image: url(assets/img/hero/slide-3.jpeg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
                             <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
 
@@ -56,12 +69,14 @@
     <main id="main">
 
         <!-- ======= About Us Section ======= -->
-        <section id="about-us" class="about-us">
+        <section id="about-us" class="about-us my-5 mx-3">
             <div class="container" data-aos="fade-up">
 
-                <div class="row content justify-content-center text-center">
+                <div class="row content justify-content-center align-items-center">
+                    <div class="col-lg-4" data-aos="fade-up">
+                        <img src="assets/img/home/about.png" alt="Hello" class="w-100 img-responsive rounded-4">
+                    </div>
                     <div class="col-lg-8" data-aos="fade-up">
-                        <img src="assets/img/home/hello.png" alt="Hello" class="w-75 img-responsive">
                         <h2>We Are <span class="primary">SPD Communication</span></h2>
                         <h3>With a rich history and a deep understanding of the ever-evolving digital landscape, we have
                             consistently delivered cutting-edge solutions to our clients.</h3>
@@ -211,7 +226,19 @@
 
                 <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
 
-                    <div class="col-lg-3 col-md-4 col-6">
+                    @forelse ($client as $item)
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <div class="client-logo">
+                                <img src="{{asset('photo/' .$item->photo)}}" class="img-fluid" alt="Logo">
+                            </div>
+                        </div>
+                    @empty
+                        <div class="col-12">
+                            Empty
+                        </div>
+                    @endforelse
+
+                    {{-- <div class="col-lg-3 col-md-4 col-6">
                         <div class="client-logo">
                             <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
                         </div>
@@ -281,7 +308,7 @@
                         <div class="client-logo">
                             <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
                         </div>
-                    </div>
+                    </div> --}}
 
                 </div>
 
@@ -353,7 +380,7 @@
                                     <div class="text-center"><button type="submit">Send Message</button></div>
                                 </form>
                             </div>
-        
+
                         </div>
 
                     </div>
