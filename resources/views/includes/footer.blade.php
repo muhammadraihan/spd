@@ -6,7 +6,7 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <img src="assets/img/logo/logo-putih.png" alt="Logo White" class="w-50">
+                    <img src="{{ asset('assets/img/logo/logo-putih.png') }}" alt="Logo White" class="w-50">
                     <p class="my-4">
                         Jl. Merak Jingga <br>
                         Medan, MDN 535022<br>

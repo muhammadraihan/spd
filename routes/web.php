@@ -29,6 +29,7 @@ Route::group(['prefix' => '/'], function () {
     Route::get('/portfolio', 'FrontEndController@portfolio')->name('portfolio');
     Route::get('/services', 'FrontEndController@services')->name('services');
     Route::view('/contact', 'pages.contact')->name('contact');
+    Route::get('/portfolio-details/{uuid}', 'FrontEndController@detailBrand')->name('portfolio-details');
 });
 
 Auth::routes(['register' => false]);
@@ -54,4 +55,7 @@ Route::group(['prefix' => 'backoffice', 'middleware' => ['auth']], function () {
     Route::resource('client', 'ClientController');
     Route::resource('about_slide', 'AboutSlideController');
     Route::resource('sub_brand', 'SubBrandController');
+    Route::resource('kategori_brand', 'KategoriBrandController');
+    Route::resource('brand', 'BrandController');
+    Route::resource('content', 'ContentController');
 });

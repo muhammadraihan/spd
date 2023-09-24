@@ -9,7 +9,10 @@ use App\Models\Home;
 use App\Models\Slide;
 use App\Models\Service;
 use App\Models\Sub_brand;
+use App\Models\Brand;
 use App\Models\Menu;
+use App\Models\Kategori_brand;
+use App\Models\Content;
 
 class FrontendController extends Controller
 {
@@ -50,13 +53,23 @@ class FrontendController extends Controller
     public function portfolio()
     {
         $client = Client::all();
+        $brand = Brand::all();
+        $kategori = Kategori_brand::all();
 
-        return view('pages.portfolio', compact('client'));
+        return view('pages.portfolio', compact('client','brand','kategori'));
     }
 
     public function services() {
         $service = Service::all();
 
         return view('pages.services', compact('service'));
+    }
+
+    public function detailBrand($id)
+    {
+        $brand = Brand::uuid($id);
+        $content = Content::all()->where('brand_id', 'like', $brand->uuid);
+        
+        return view('pages.portfolio-details',compact('brand', 'content'));
     }
 }

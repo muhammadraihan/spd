@@ -1,7 +1,7 @@
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
-        <a href="{{ route('home') }}" class="logo me-auto"><img src="assets/img/logo/logo-biru.png" alt=""
+        <a href="{{ route('home') }}" class="logo me-auto"><img src="{{ asset('assets/img/logo/logo-biru.png') }}" alt=""
                 class="img-fluid"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0" aria-label="navbar">
