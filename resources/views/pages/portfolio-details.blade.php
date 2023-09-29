@@ -27,9 +27,9 @@
         <section id="portfolio-details" class="portfolio-details">
             <div class="container" data-aos="fade-up">
 
-                <div class="row gy-4">
+                <div class="row gy-4 mb-4">
 
-                    <div class="col-lg-8">
+                    <div class="col-lg-12">
                         <div class="portfolio-details-slider swiper">
                             <div class="swiper-wrapper align-items-center">
                                 
@@ -42,17 +42,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4">
-                        <div class="portfolio-info">
-                            <h3>Project information</h3>
-                            <ul>
-                                <li><strong>Category</strong>: {{ $brand->judul }}</li>
-                                <li><strong>Client</strong>: {{ $brand->nama }}</li>
-                                <li><strong>Project date</strong>: 01 March, 2023</li>
-                                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-                            </ul>
-                        </div>
-                        <div class="portfolio-description">
+                    <div class="col-lg-12">
+                        <div class="portfolio-description text-center">
                             <h2>{{ $brand->judul }}</h2>
                             <p>
                                 {!! $brand->deskripsi !!}
@@ -66,7 +57,7 @@
 
                     @foreach ($content as $item)
                     <div class="col-lg-4 col-md-6 portfolio-item">
-                        <img src="{{ asset('photo/' . $item->photo) }}" class="img-fluid" alt="">
+                        <img src="{{ asset('photo/' . $item->photo) }}" class="w-100" alt="">
                         <div class="portfolio-info">
                             {{-- <h4>{{ $item->nama }}</h4>
                             <p>{{ $item->kategori->nama }}</p>

@@ -24,32 +24,6 @@
                         Empty
                     </div>
                 @endforelse
-                <!-- Slide 1 -->
-                {{-- <div class="carousel-item active" style="background-image: url(assets/img/hero/slide-1.jpeg);">
-                    <div class="carousel-container">
-                        <div class="carousel-content animate__animated animate__fadeInUp">
-                            <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
-                        </div>
-                    </div>
-                </div> --}}
-
-                <!-- Slide 2 -->
-                {{-- <div class="carousel-item" style="background-image: url(assets/img/hero/slide-2.jpeg);">
-                    <div class="carousel-container">
-                        <div class="carousel-content animate__animated animate__fadeInUp">
-                            <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
-                        </div>
-                    </div>
-                </div> --}}
-
-                <!-- Slide 3 -->
-                {{-- <div class="carousel-item" style="background-image: url(assets/img/hero/slide-3.jpeg);">
-                    <div class="carousel-container">
-                        <div class="carousel-content animate__animated animate__fadeInUp">
-                            <div class="text-center"><a href="" class="btn-get-started">See Project</a></div>
-                        </div>
-                    </div>
-                </div> --}}
 
             </div>
 
@@ -94,13 +68,34 @@
                     <h2>Our Services</h2>
                 </div>
 
-                <div class="grid">
-                    <div class="grid-item">
+                <div class="row">
+                    <div class="col-md-6 col-12 col-lg-3">
+                        <a href="#" class="pilar-spd-card">
+                            <img src="img/video-production.png" alt="" class="img-pilar w-100">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-3">
+                        <a href="#" class="pilar-spd-card">
+                            <img src="img/digital-marketing.jpeg" alt="" class="img-pilar w-100">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-3">
+                        <a href="#" class="pilar-spd-card">
+                            <img src="img/media-advertising.jpeg" alt="" class="img-pilar w-100">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-3">
+                        <a href="#" class="pilar-spd-card">
+                            <img src="img/creative-solution.jpeg" alt="" class="img-pilar w-100">
+                        </a>
+                    </div>
+
+                    {{-- <div class="grid-item">
                         <article class="card">
                             <img class="card__background"
                                 src="https://img.freepik.com/free-photo/social-media-marketing-concept-marketing-with-applications_23-2150063170.jpg?w=360&t=st=1692026298~exp=1692026898~hmac=5d451a103ad3690b075c0200d55d1f294351a2cde9821212ceb6e5675b493225"
                                 alt="Photo of Cartagena's cathedral at the background and some colonial style houses" />
-                            <div class="card__content | flow">
+                            {{-- <div class="card__content | flow">
                                 <div class="card__content--container | flow">
                                     <h2 class="card__title">Media & Advertising</h2>
                                     <p class="card__description">
@@ -109,8 +104,8 @@
                                     </p>
                                 </div>
                                 <button class="card__button">Read more</button>
-                            </div>
-                        </article>
+                            </div> --}}
+                        {{-- </article>
                     </div>
                     <div class="grid-item">
                         <article class="card">
@@ -177,7 +172,7 @@
                                 <button class="card__button">Read more</button>
                             </div>
                         </article>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>

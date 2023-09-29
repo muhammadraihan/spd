@@ -13,7 +13,7 @@
 
                 <div class="section-title">
                     <h2>Our Services</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    <p class="p-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                         consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
                         fugiat sit
                         in iste officiis commodi quidem hic quas.</p>
@@ -25,55 +25,28 @@
                         <a class="service-thumbnail nav-link active" id="home-tab" data-bs-toggle="tab"
                             data-bs-target="#home" type="button" role="tab" aria-controls="home"
                             aria-selected="true">
-                            <div class="content p-5">
-                                <img src="assets/img/service/media.png" alt="Media" class="w-50">
-                                <h4 class="mt-2">Media & Advertising</h4>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
+                            <img src="img/video-production.png" alt="" class="w-100">
                         </a>
                     </div>
                     <div class="grid-service-item" role="presentation">
                         <a class="service-thumbnail nav-link" id="profile-tab" data-bs-toggle="tab"
                             data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
                             aria-selected="false">
-                            <div class="content p-5">
-                                <img src="assets/img/service/camera.png" alt="Media" class="w-50">
-                                <h4 class="mt-2">Video Production</h4>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
+                            <img src="img/digital-marketing.jpeg" alt="" class="w-100">
                         </a>
                     </div>
                     <div class="grid-service-item" role="presentation">
                         <a class="service-thumbnail nav-link" id="messages-tab" data-bs-toggle="tab"
                             data-bs-target="#messages" type="button" role="tab" aria-controls="messages"
                             aria-selected="false">
-                            <div class="content p-5">
-                                <img src="assets/img/service/advertisements.png" alt="Media" class="w-50">
-                                <h4 class="mt-2">Digital Marketing</h4>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
+                            <img src="img/media-advertising.jpeg" alt="" class="w-100">
                         </a>
                     </div>
                     <div class="grid-service-item" role="presentation">
                         <a class="service-thumbnail nav-link" id="settings-tab" data-bs-toggle="tab"
                             data-bs-target="#settings" type="button" role="tab" aria-controls="settings"
                             aria-selected="false">
-                            <div class="content p-5">
-                                <img src="assets/img/service/login.png" alt="Media" class="w-50">
-                                <h4 class="mt-2">Mobile Branding</h4>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="grid-service-item" role="presentation">
-                        <a class="service-thumbnail nav-link" id="settings-tab" data-bs-toggle="tab"
-                            data-bs-target="#settings" type="button" role="tab" aria-controls="settings"
-                            aria-selected="false">
-                            <div class="content p-5">
-                                <img src="assets/img/service/login.png" alt="Media" class="w-50">
-                                <h4 class="mt-2">Mobile Branding</h4>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
+                            <img src="img/creative-solution.jpeg" alt="" class="w-100">
                         </a>
                     </div>
                 </div>
